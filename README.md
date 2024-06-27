@@ -74,11 +74,11 @@ const createWindow = () => {
 
 ## 常见问题
 - 1.electron-builder打包electron-v13.6.9-win32-x64.zip下载失败
+  
 ![Image text](https://img-blog.csdnimg.cn/aebb64b00d6e4989ae8ce6470f719e5e.png#pic_center)
 
-```
-请根据报错信息版本[url](https://github.com/electron/electron/releases/tag/v31.1.0)
-下载后找到以下位置，将压缩包解压到electron的cache文件夹中。
-C:\Users\admin\AppData\Local\electron\Cache
-![Image text](https://img-blog.csdnimg.cn/aebb64b00d6e4989ae8ce6470f719e5e.png#pic_center](https://img-blog.csdnimg.cn/a995d138894442acb9eb59a81945c51c.png#pic_center)
-```
+- 请根据报错信息版本下载对应版本：[下载地址](https://github.com/electron/electron/releases/tag/v31.1.0)
+- 下载后找到以下位置，将压缩包解压到electron的cache文件夹中。
+- C:\Users\admin\AppData\Local\electron\Cache
+
+![Image text](https://img-blog.csdnimg.cn/a995d138894442acb9eb59a81945c51c.png#pic_center)

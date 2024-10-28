@@ -1,4 +1,6 @@
 const { app, BrowserWindow } = require('electron')
+const url = require('url')
+const path = require('path')
 
 const createWindow = () => {
   const win = new BrowserWindow({
@@ -10,6 +12,13 @@ const createWindow = () => {
   
   win.setMenu(null)
   win.loadURL('http://www.baidu.com')
+
+  // 加载本地
+  /*win.loadURL(url.format({
+    pathname: path.join(__dirname, '/web/fireExtinguisher_renter.html'),
+    protocol: 'file:',
+    slashes: true
+  }));*/
 }
 
 app.whenReady().then(() => {
